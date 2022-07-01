@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Resumen/assets/css/styles.css">
+    <link rel="preload" href="/Resumen/assets/css/styles.css" as="style">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="nav-bg">
+            <nav class="navbar navbar-expand-md border-3 border-bottom border-primary">
+                <div class="container-fluid">
+                    <a href="#" class="navbar-brand"><h1 class="titulo-navegacion">Div<span>Geek</span></h1></a>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#colapsa">
+                            <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+    
+                <div id="colapsa" class="collapse navbar-collapse  navegacion-principal">
+                    <ul class="navbar-nav ms-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Resumen/index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/Resumen/paginas/html.html">HTML</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Resumen/paginas/css.html">CSS</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="true" aria-controls="panelsStayOpen-collapseFive">
+              Que CSS?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingFive">
+            <div class="accordion-body">
+              <p>CSS son las siglas en inglés para «hojas de estilo en cascada» (Cascading Style Sheets). Básicamente, es un lenguaje que maneja el diseño y presentación de las páginas web, es decir, cómo lucen cuando un usuario las visita. Funciona junto con el lenguaje HTML</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+              Por que es tan importante?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
+            <div class="accordion-body">
+                <p>Es tan importante ya que permite crear un Responsive Web Design, lo que significa que la página puede ser adaptada a cualquier dispositivo desde el cual se acceda.</p>
+            </div>
+          </div>
+        </div>
+
+    <section class="hero2">
+        <div class="contenido-hero">
+            <section class="col-12 col-md-6 sombra">
+                <h1 class="titulo">Sintaxis de CSS</h1>
+                <p>Selector: Es el elemento al que vamos a aplicar estilos.  <br>
+                    Propiedad: Es eso que vamos a cambiar. <br>
+                    Valor: El nuevo valor que le vamos a dar a la propiedad.  <br>
+                    Al conjunto de selector+declaración declaraciones se le denomina regla.
+                    </p>
+            </section>
+
+            <section class="col-12 col-md-6 sombra">
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                          Que es Box model?
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                          <p>Box model es un módulo CSS que define cajas rectangulares. Cada vez que se inserta una etiqueta HTML, se crea una nueva caja rectangular que encierra los contenidos de ese elemento, este tiene distintas propiedades..</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                          Propiedad Margin
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                            <p>El margen es la separación entre una caja y las cajas adyacentes. El margen es la última área del Box Model y se puede ver como una separación invisible o transparente que ayuda a separar un elemento de otro. <br>
+                                Se pueden utilizar las siguientes propiedades: <br>
+                                margin-top = Margen superior. <br>
+                                margin-right = Margen derecho. <br>
+                                margin-top = Margen inferior. <br>
+                                margin-left = Margen izquierdo.
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                         Propiedad Padding
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                          <p>La propiedad padding establece el espacio de relleno requerido por todos los lados de un elemento. El área de padding es el espacio entre el contenido del elemento y su borde ( border ). No se permiten valores negativos. 
+                            Se pueden utilizar las siguientes propiedades: <br>
+                            padding-top = padding superior. <br>
+                            padding-right = padding derecho. <br>
+                            padding-bottom = padding inferior. <br>
+                            padding-left = padding izquierdo.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                           Propiedad Border
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                          <div class="accordion-body">
+                            <p>
+                                La propiedad border permite definir en una única regla todos los bordes de los elementos seleccionados. <br>
+                                Se pueden utilizar las siguientes propiedades: <br>
+                                border-width = ancho del borde. <br>
+                                border-style = estilo del borde. <br>
+                                border-color = color del borde.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            
+            </section>
+    
+        </div>
+    
+    </section>
+</body>
+</html>

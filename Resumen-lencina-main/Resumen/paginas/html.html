@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Krub:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/Resumen/assets/css/styles.css">
+  <link rel="preload" href="./assets/css/styles.css" as="style">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div class="nav-bg">
+        <nav class="navbar navbar-expand-md border-3 border-bottom border-primary">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand"><h1 class="titulo-navegacion">Div<span>Geek</span></h1></a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#colapsa">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div id="colapsa" class="collapse navbar-collapse  navegacion-principal">
+                <ul class="navbar-nav ms-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Resumen/index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="html.html">HTML</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Resumen/paginas/css.html">CSS</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+  </header>
+       
+  
+  
+  
+  <main class="fondo">
+
+            <section>
+              <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                     Que es HTML?
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                      <p>HTML no es un lenguaje de programación por si mismo, pero se lo considera un lenguaje de
+                        marcado de hipertexto( de ahi las siglas html), sirve para estructurar el contenido de una página web, es
+                        aquello que le da la forma y orden a la página, se podría decir que es su esqueleto.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                      Listas
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                        <p>Se puede utilizar listas ordenadas "ol", o listas desordenadas "ul", y para declarar los
+                            elementos que irán dentro de la listas se utiliza la etiqueta li.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                      Atributos de HTML
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                        <p>HTML cuenta con diversos atributos, los más importantes son: <br>
+                        -Class: sirve para darle estilo a la página a través de CSS <br>
+                        -Title: este atributo se muestra como una descripción del elemento al que pertenece  <br>
+                        -Data: permite guardar un valor en la etiqueta</p> 
+                    </div>
+                  </div>
+                </div>
+            
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                      Que es un formulario en html?
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                      <p > En el formulario se agregan los diferentes campos de entrada de datos o de confirmación, así como los botones, que como mínimo ha de haber uno, el de envío</p>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                      Que etiquetas conforman un formulario?
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                      <p>-form: etiqueta que engloba el formulario. <br>   
+                      -label: sirve para escribir el nombre de campo para rellenar. <br>    
+                      -input: sirve para crear un campo donde el usuario pueda interactuar. <br>
+                      -button: crea un botón para enviar el formulario.</p> 
+                    </div>
+  
+                  </div>                 
+                </div>
+              </div> 
+            </div>   
+            </section>
+            <section class="container-section estructura">               
+              <div class="row">
+                        <div class="col-md-6"></div>
+                        <div class="col-12 col-md-6 sombra">
+                          <div class="contenedor">
+                            <h1 class="titulo">La estructura del html</h1>
+                            <p>La estructura de html es como su esqueleto, en este se basara el resto de la pagina, este esta conformado por: <br>                             
+                            -Head: Se declara la información sobre el documento, como por ejemplo <span class="ejemplos">el titulo, enlaces a scripts y hojas de estilos.</span> <br>
+                            -Body: Cuerpo de la página web. <br>
+                            -Footer: Pie de página, suele contener información sobre el autor y los creadores y la bibliografía o documentos relacionados. <br>
+                            -Article: Agrega información de otro sitio y que no pierda el sentido <br>
+                            -Section: Se utiliza para agrupar contenidos que tienen que ver con la pagina<br>
+                            -Aside: Contenido no originario de la página, como por <span class="ejemplos">ejemplo anuncios</span></p>                            
+                          </div>
+                        </div>
+
+              </div>
+
+              </div>
+
+            </section>
+            <section class="container selection etiquetas" id="etiquetas" >
+                  <div class="row">
+                    <div class="col-12 col-md-6 sombra">
+                        <div class="contenedor">
+                            <h1 class="titulo">Etiquetas mas importantes</h1>
+                            <p>Html se maneja mediante etiquetas, estas sirven para diversas funciones.Algunos ejemplos de estas etiquetas son: <br>
+                            H = Esta etiqueta esta para crear titulos; estos siguen un orden jerárquico, yendo desde el titulo mas importante "h1", hasta el titulo menos importante "h6". <br>
+                            p = Agrega parrafos que contienen texto, hasta no obtener los datos del cliente <span class="ejemplos">se suele utilizar un "Lorem ipsum" para rellenar. </span> <br>
+                            a = Un ancla sirve para utilizar enlaces, los cuales son vinculos, que <span class="ejemplos"> se pueden realizar tanto para vincular hojas de estilo como videos imagenes y hasta otras paginas.</span> </p>
+                        </div>
+
+                    </div>
+                  </div>
+             </section>    
+        </main>
+</body>
+</html>
